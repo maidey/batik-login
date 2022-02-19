@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login With Love</title>
+    <style>
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+        #login__body {
+            background-image: url("./vi_color_all_3-06.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #background {
+            background-color: #f0f0f0;
+            height: 300px;
+            width: 200px;
+            /* border-radius: 1em; */
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: 'Public Sans', sans-serif;
+        }
+
+        #form__head {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            font-family: 'Lobster', cursive;
+        }
+        #form__main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                font-size: 13px;
+            }
+            #form__main form #button {
+                width: 100%;
+                height: 30px;
+                background-color: #ff8080;
+                border: none;
+                cursor: pointer;
+            }
+            #form__footer {
+                text-align: center;
+            }
+            #form__footer p {
+                font-size: 10px;
+            }
+
+
+
+        @media only screen and (min-width: 600px) {
+            #login__body {
+                background-image: url("./vi_color_all_3-06.jpg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #background {
+                background-color: #f0f0f0;
+                height: 400px;
+                width: 300px;
+                /* border-radius: 1em; */
+                padding: 2em;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            #form__head {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 20px;
+                font-family: 'Lobster', cursive;
+            }
+
+            #form__main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+            #form__main form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #form__main form .user,
+            #form__main form .pass {
+                line-height: 2px;
+                margin-bottom: 1em;
+            }
+
+            #form__main form .user #user,
+            #form__main form .pass #pass {
+                width: 250px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+            }
+
+            #form__main form #button {
+                width: 100%;
+                height: 30px;
+                background-color: #ff8080;
+                border: none;
+                cursor: pointer;
+            }
+
+            #form__footer p {
+                font-size: 10px;
+            }
+    </style>
+</head>
+
+<body>
+    <section id="login__body">
+        <div id="background">
+            <div id="form__head">
+                <h1>Login Now</h1>
+            </div>
+            <div id="form__main">
+                <form action="post">
+                    <div class="user">
+                        <h3>Username</h3>
+                        <input type="text" name="user" id="user">
+                        <!-- <textarea name="user" id="user"></textarea> -->
+                    </div>
+                    <div class="pass">
+                        <h3>Password</h3>
+                        <!-- <textarea name="pass" id="pass"></textarea> -->
+                        <input type="password" name="pass" id="pass">
+                    </div>
+                    <br>
+                    <input id="button" type="button" value="submit">
+                </form>
+
+            </div>
+            <div id="form__footer">
+                <p>By getting started, you acknowledge and agree to
+                    Terms of Use and Privacy Policy</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
