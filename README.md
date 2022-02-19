@@ -13,9 +13,9 @@ Fb [dai re](https://fb.com/deiterada)
 
 ## screanshoot
 
-![mobile](./Screenshot 2022-02-19 093710.png)
+![mobile](./mobile.png)
 
-![desktop](./Screenshot 2022-02-19 093750.png)
+![desktop](./desktop.png)
 
 ##  DEMO
 
